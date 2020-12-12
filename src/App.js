@@ -20,8 +20,8 @@ function App() {
     setCrystalbet("");
     setAdjarabet("");
     setCrystalbetMoney("");
-    setAdjarabetMoney(z);
-    setProfit(prof);
+    setAdjarabetMoney(z.toFixed(1));
+    setProfit(prof.toFixed(1));
   };
 
   return (
