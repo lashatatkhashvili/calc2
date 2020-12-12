@@ -5,6 +5,7 @@ function App() {
   const [adjarabet, setAdjarabet] = useState();
   const [crystalbetMoney, setCrystalbetMoney] = useState();
   const [adjarabetMoney, setAdjarabetMoney] = useState();
+  const [crys, setCrys] = useState();
   const [profit, setProfit] = useState();
 
   const submit = async (event) => {
@@ -22,6 +23,7 @@ function App() {
     setCrystalbetMoney("");
     setAdjarabetMoney(z.toFixed(1));
     setProfit(prof.toFixed(1));
+    setCrys(c);
   };
 
   return (
@@ -54,6 +56,7 @@ function App() {
         </div>
 
         <button type="submit">Count</button>
+        <p>Crystalbet Money: {crys}</p>
         <p>Adjarabet Money: {adjarabetMoney}</p>
         <p>Profit: {profit}</p>
       </form>
