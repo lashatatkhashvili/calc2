@@ -18,9 +18,6 @@ function App() {
 
     let prof = z - z * 0.035 - c;
 
-    setCrystalbet("");
-    setAdjarabet("");
-    setCrystalbetMoney("");
     setAdjarabetMoney(z.toFixed(1));
     setProfit(prof.toFixed(1));
     setCrys(c);

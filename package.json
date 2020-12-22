@@ -11,7 +11,7 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3"
   },
-  "homepage": "https://lashatatkhashvili.github.io/calc",
+  "homepage": "https://lashatatkhashvili.github.io/calc2",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
