@@ -35,9 +35,9 @@ function App() {
     let a = adjarabet2;
     let b = crystalbet2;
     let c = crystalbetMoney2;
-    let z = (c * b) / (1 + (a - 1));
+    let z = (c * b) / (0.95 + (a - 1));
 
-    let prof = z - c;
+    let prof = z - z * 0.05 - c;
 
     setAdjarabetMoney2(z.toFixed(1));
     setProfit2(prof.toFixed(1));
